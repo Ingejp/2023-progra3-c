@@ -1,16 +1,23 @@
 #include <iostream>
+#include "archivos.h"
+
 using namespace  std;
+
 int main() {
     //cout << "Hello, World! \n" ;
    // cout<< " otra linea ";
-   int numero=10;
+
+    abrirArchivo();
+    agregarTexto();
+    leerTexto();
+   int numero=1;
     if(numero > 0){
         //cout<<"es nu numero positivo";
     }else{
         //cout<<"es negativo o igual cero";
     }
 
-    switch (numero) {
+   /* switch (numero) {
         case 1:
         cout<< "es menor que cinco"<<endl;
         case 6:
@@ -18,7 +25,7 @@ int main() {
 
         default:
             //cout<<"Es una categoria diferente";
-    }
+    }*/
 
     /*for(int i; i <=10; i++){
         if(numero>5){
@@ -40,3 +47,5 @@ int main() {
 
     return 0;
 }
+
+
